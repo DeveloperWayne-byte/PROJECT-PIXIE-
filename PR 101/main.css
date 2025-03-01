@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(130deg, #231a6f, #0f054c);
+    background-size: 400%;
+    text-align: center;
+    animation: gradientBackground 15s ease infinite;    
+}
+
+
+.container {
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+    max-width: 600px;
+    border: 1px solid black;
+    font-size: 25px;
+   
+}
+
+@
+.questionnaire {
+    text-align: left;
+    margin: auto;
+    max-width: 500px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #333;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.result-box {
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border-left: 5px solid #0c5460;
+    display: none;
+    max-width: 700px;
+    margin: auto;
+    animation: panFadeIn 2s ease-out;
+}
+
+#resultBox button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#resultBox button:hover {
+    background-color: #218838;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+label:hover {
+  background-color: #e0e0e0;
+}
