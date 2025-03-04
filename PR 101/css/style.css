@@ -657,7 +657,7 @@ a:focus {
   position: relative;
 }
 
-.team_section .team_container .box .social_box {
+.team_section .team_container .box {
   padding: 10px 45px 20px 45px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -667,12 +667,12 @@ a:focus {
           justify-content: space-between;
 }
 
-.team_section .team_container .box .social_box a {
+.team_section .team_container .box a {
   color: #ffffff;
   font-size: 22px;
 }
 
-.team_section .team_container .box .social_box a:hover {
+.team_section .team_container .box a:hover {
   color: #00bbf0;
 }
 
